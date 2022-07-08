@@ -6,4 +6,4 @@
 
 include device/google/crosshatch/BoardConfigCrooked.mk
 
-include vendor/google/blueline/BoardConfigVendor.mk
+include vendor/google/crosshatch/BoardConfigVendor.mk
