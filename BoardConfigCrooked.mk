@@ -12,7 +12,7 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     MKDTIMG=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/libufdt/mkdtimg
 TARGET_KERNEL_CONFIG := b1c1_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
+TARGET_KERNEL_SOURCE := kernel/google/bluecross
 TARGET_NEEDS_DTBOIMAGE := true
 
 # Partitions
