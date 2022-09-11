@@ -1,5 +1,6 @@
 #
 # Copyright 2015 The Android Open Source Project
+# Copyright 2022 The Crooked Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,13 +16,11 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_crosshatch.mk \
-    $(LOCAL_DIR)/aosp_blueline.mk \
-    $(LOCAL_DIR)/aosp_crosshatch_hwasan.mk \
-    $(LOCAL_DIR)/aosp_blueline_hwasan.mk \
-    $(LOCAL_DIR)/vf/aosp_crosshatch_vf.mk \
+    $(LOCAL_DIR)/crooked_crosshatch.mk \
+    $(LOCAL_DIR)/crooked_blueline.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_crosshatch-userdebug \
-    aosp_blueline-userdebug \
-    aosp_crosshatch_vf-userdebug \
+    crooked_crosshatch-user \
+    crooked_crosshatch-userdebug \
+    crooked_blueline-user \
+    crooked_blueline-userdebug
