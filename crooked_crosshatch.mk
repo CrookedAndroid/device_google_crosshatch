@@ -26,3 +26,4 @@ BUILD_FINGERPRINT := google/crosshatch/crosshatch:12/SP1A.210812.016.C2/8618562:
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, vendor/google/crosshatch/crosshatch-vendor.mk)
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
