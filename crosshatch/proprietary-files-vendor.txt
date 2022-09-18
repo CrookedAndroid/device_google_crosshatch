@@ -1218,4 +1218,4 @@ vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/common/ROW/Commercial/mc
 vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/common/W_One/Commercial/mcfg_sw.mbn
 vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/common/WildCard/Wildcard/mcfg_sw.mbn
 vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig
-vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
+vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt|a15a05dbc8ba3b696975a55847d186128ae4d259
