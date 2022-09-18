@@ -27,3 +27,4 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, vendor/google/crosshatch/crosshatch-vendor.mk)
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
